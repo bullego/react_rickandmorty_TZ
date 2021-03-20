@@ -1,0 +1,26 @@
+.characters {
+	color: black;
+}
+
+.characters_title {
+	margin: 3vw 0;
+	margin-bottom: 1vw;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.cards_list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.card {
+	width: 30vw;
+}
+.filters_wrap {
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,0 +1,49 @@
+.watchlist {
+	color: black;
+}
+.watchlist h2 {
+	margin: 3vw 0;
+	font-size: 2rem;
+	font-weight: 500;
+}
+.add_item {
+	display: flex;
+
+}
+.list_items {
+	margin: 0;
+	margin-top: 4vw;
+	padding: 0;
+	list-style-type: none;
+}
+.list_item {
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+	margin-bottom: 1.2vw;
+	font-size: 1.4rem;
+	font-weight: normal;
+	line-height: 1;
+}
+.item_done {
+	text-decoration: line-through;
+}
+
+.item_done_wrap {
+	display: flex;
+	align-items: center;
+}
+
+.item_done_wrap span {
+	font-size: 1.2rem;
+}
+
+.btn_delete {
+	margin: 0;
+	margin-left: auto;
+	padding: 0 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
